@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Righteous&family=Roboto:ital,wght@0,400;1,300&family=Sacramento&display=swap');
+
+body{margin: 0px;padding: 0px; text-decoration: none;}
+
+
+.imagemm{
+  background-image: url(./image/Captura\ de\ tela\ 2022-06-04\ 230034.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(95, 95, 95);
+}
+
+section{
+    color: #fff;
+    font-family: 'league Gothic';
+    font-size: 80px;
+
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+button{
+    cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 15px;
+
+    background-color: #ffffff;
+    color: rgb(36, 116, 195);
+    border: none;
+    font-size: 24px;
+
+
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+button:hover {
+    background-color: #634caf; /* Green */
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(51, 23, 90);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(212, 255, 0);
+}
+
+
+
+
