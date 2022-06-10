@@ -254,11 +254,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+   
     
-    background-image: url(./image/garena-removebg-preview.png);
+    background-image: url( ./image/Naughty_Dog-Logo.wine-removebg-preview.png);
     background-repeat: no-repeat;
-    background-size: 130px;
+    background-size: 250px;
 
     padding: 10px;
     margin: 10px;
@@ -279,7 +279,7 @@ body {
     align-items: center;
 
     
-    background-image: url(./image/Naughty_Dog-Logo.wine-removebg-preview.png);
+    background-image: url(./image/garena-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: 180px;
 
@@ -518,6 +518,23 @@ width: 250px; }
 
 
 
+.texth1{
+    color: red;
+    font-size: 60px;
+}
+.textp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+    font-size: 50px;
+}
+
+
+
+.spantext{
+    font-family: fantasy;
+    font-size: 50px;
+    color: #e1e1e1;
+}
 
 
 

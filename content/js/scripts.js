@@ -30,36 +30,16 @@ question_five.addEventListener('click', function(event){
     storeAnswer(5, event)
 })
 
-function totalScore(){
-    var total_score = 
-    answers.question1+
-    answers.question2+
-    answers.question3+
-    answers.question4+ 
-    answers.question5;
-    
-    return total_score;
-}
 
-function getInfoBasedOnScore(){
-    if(totalScore() > 9){
-        var score_info = "Parabens vc acertou 5"
-    }
-    
-    if(totalScore() < 7){
-        var score_info = "Iniciante";
-    } else if(totalScore() > 7){
-        var score_info = "Lendario."
-    }
 
-    return score_info;
-}
 
+// Mudar para a proxima questão 
 var submit1 = document.getElementById('submit1');
 var submit2 = document.getElementById('submit2');
 var submit3 = document.getElementById('submit3');
 var submit4 = document.getElementById('submit4');
 var submit5 = document.getElementById('submit5');
+
 
 function nextQuestion(question_number){
     var current_question_number = question_number - 1;
@@ -146,11 +126,34 @@ function totalScore(){
 }
 
 function getInfoBasedOnScore(){
-    if(totalScore() < 7){
-        var score_info = "Iniciante";
-    } else if(totalScore() > 7){
-        var score_info = "Lendario."
+    if(totalScore() == 7 || totalScore() == 8){
+        var score_info = "Você É PESSIMO";
+    } 
+    
+   
+    if(totalScore() == 9 || totalScore() == 10){
+        var score_info = "Só te dei 10 pontos para vc não se sentir mal";
     }
+    if(totalScore() == 11){
+        var score_info = "Menó tá bem ?";
+    }
+    if(totalScore() == 12){
+        var score_info = "Uiii q chique sabe um pouco de nada";
+    }
+    if(totalScore() == 13){
+        var score_info = "Dá para melhorar vai!! recomeça ";
+    }
+    if(totalScore() == 14){
+        var score_info = "Quaseeee tente denovo";
+    }
+    if(totalScore() == 15){
+        var score_info = "Meuuu deus tu conseguiu q massa Parabens";
+    }
+    
+    
+       
+        
+    
 
     return score_info;
 }
@@ -191,6 +194,9 @@ submit4.addEventListener('click', function(){
 })
 submit5.addEventListener('click', function(){
     nextQuestion(6);
+})
+submit5.addEventListener('click', function(){
+    nextQuestion(7);
 })
 
 submit5.addEventListener('click', function(){
